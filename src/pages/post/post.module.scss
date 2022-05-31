@@ -1,0 +1,30 @@
+.banner {
+  width: 100%;
+  height: 20rem;
+
+  img {
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+.content {
+  margin: 3rem 0;
+
+  h3 {
+    margin-bottom: 2rem;
+  }
+
+  main {
+    display: block;
+    text-align: justify;
+
+    p {
+      margin: 1rem 0;
+    };
+
+    a {
+      color: var(--highlight);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.postContainer {
+
+  h1 {
+    line-height: 3rem;
+  }
+
+ section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    margin: 1rem 0;
+
+    & + div {
+      margin-left: 2rem;
+    }
+  }
+ }
+}
+
+.button {
+    font-size: 1rem;
+    color: var(--highlight);
+    font-weight: bold;
+    margin: 2rem 0;
+    border: none;
+    background: transparent;
+}
+
